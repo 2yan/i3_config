@@ -50,6 +50,11 @@ bindsym XF86AudioRaiseVolume exec pactl set-sink-volume 2 +5% #increase sound vo
 bindsym XF86AudioLowerVolume exec pactl set-sink-volume 2 -5% #decrease sound volume
 bindsym XF86AudioMute exec pactl set-sink-mute 2 toggle # mute sound
 
+# split in horizontal orientation
+bindsym Mod1+h split h
+# split in vertical orientation
+bindsym Mod1+v split v
+
 
 
 
@@ -92,12 +97,6 @@ bindsym $mod+Shift+q kill
 
 # start dmenu (a program launcher)
 # There also is the (new) i3-dmenu-desktop which only displays applications
-
-# split in horizontal orientation
-bindsym $mod+h split h
-
-# split in vertical orientation
-bindsym $mod+v split v
 
 # enter fullscreen mode for the focused container
 bindsym $mod+f fullscreen toggle
