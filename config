@@ -56,10 +56,10 @@ bindsym Mod1+h split h
 bindsym Mod1+v split v
 
 
-
-
-
-
+#GAPS SETTINGS
+gaps inner 10 
+gaps outer 10 
+for_window [class="^.*"] border pixel 2
 
 
 
