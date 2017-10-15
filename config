@@ -63,7 +63,11 @@ smart_gaps on
 for_window [class="^.*"] border pixel 2
 
 
+#BAR 
 
+bar {
+    status_command i3status 
+}
 
 
 
