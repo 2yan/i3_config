@@ -5,7 +5,7 @@
 # this file and re-run i3-config-wizard(1).
 
 
-
+exec --no-startup-id feh --bg-fill ~/Desktop/background.jpg
 
 #RYANS CONFIGS
 set $mod Mod4
@@ -62,11 +62,10 @@ gaps outer 0
 smart_gaps on
 for_window [class="^.*"] border pixel 2
 
-
+exec volumeicon
 #BAR 
 
 bar {
-    status_command i3status 
 }
 
 
