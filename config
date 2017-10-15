@@ -10,7 +10,6 @@ exec --no-startup-id nm-applet
 exec --no-startup-id blueman-applet 
 
 
-for window [class='Steam" floating enable, border none
 #RYANS CONFIGS
 set $mod Mod4
 
@@ -68,14 +67,22 @@ for_window [class="^.*"] border pixel 2
 
 exec volumeicon
 #BAR 
-
 bar {
+       # status_command i3status
+        tray_output primary
+	position bottom 
+	colors {
+		   background #222222
+		   statusline #eeeeee
+		   separator #666666
+		   #                  border  backgr. text
+		   focused_workspace  #4c7899 #285577 #ffffff
+		   active_workspace   #333333 #5f676a #ffffff
+		   inactive_workspace #333333 #222222 #888888
+		   urgent_workspace   #2f343a #900000 #ffffff
+		}
+
 }
-
-
-
-
-
 # i3 config file (v4)
 #
 # Please see http://i3wm.org/docs/userguide.html for a complete reference!
@@ -178,7 +185,4 @@ bindsym $mod+r mode "resize"
 
 # Start i3bar to display a workspace bar (plus the system information i3status
 # finds out, if available)
-bar {
-        status_command i3status
-        tray_output primary
 
