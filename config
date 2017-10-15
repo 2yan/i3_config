@@ -58,7 +58,8 @@ bindsym Mod1+v split v
 
 #GAPS SETTINGS
 gaps inner 10 
-gaps outer 10 
+gaps outer 0 
+smart_gaps on
 for_window [class="^.*"] border pixel 2
 
 
