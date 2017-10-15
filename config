@@ -4,9 +4,13 @@
 # Should you change your keyboard layout some time, delete
 # this file and re-run i3-config-wizard(1).
 
-
+#Programs
 exec --no-startup-id feh --bg-fill ~/Desktop/background.jpg
+exec --no-startup-id nm-applet
+exec --no-startup-id blueman-applet 
 
+
+for window [class='Steam" floating enable, border none
 #RYANS CONFIGS
 set $mod Mod4
 
