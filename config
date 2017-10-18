@@ -46,7 +46,7 @@ bindsym Mod4+Right workspace next
 
 bindsym control+space exec dmenu_run
 # start a terminal
-bindsym control+Return exec i3-sensible-terminal
+bindsym control+t exec i3-sensible-terminal
 
 
 
